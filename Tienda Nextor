@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nexor - Lo mejor en celulares portatiles">
+    <title>Nexor - Atencion a clientes </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        header {
+            background-color: #cdaade;
+            color: #000000;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #ac79be;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            background-color: #e1d0e4;
+        }
+        h1, h1 {
+            font-family: Georgia;
+            color:  #000000;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: #f4f4f4;
+            padding: 15px;
+            margin: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 30%;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #ac79be;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: #ac79be;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        input[type="submit"] {
+            background-color: #ac79be;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #ac79be;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nexor</h1>
+        <p>Innovacion en celulares</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#products">Productos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>En Nexor, transformamos la forma en que te conectas con el mundo. Somos una empresa líder en tecnología de telefonía móvil, comprometida con ofrecer dispositivos de alto rendimiento, diseño innovador y accesibilidad para todos. Nuestros teléfonos están diseñados para potenciar tu vida diaria, brindándote la última tecnología en tus manos, ya sea que busques productividad, entretenimiento o comunicación sin límites.</p>
+
+<p>Con un enfoque en la sostenibilidad y la calidad, nuestros productos no solo destacan por su diseño moderno y elegante, sino también por su capacidad de mantenerse a la vanguardia de la innovación. Creemos en un futuro donde la tecnología esté al alcance de todos, con dispositivos que no solo conecten personas, sino que también respeten nuestro planeta.</p>
+
+<p>Explora nuestras soluciones avanzadas y descubre cómo Nexor está redefiniendo la experiencia móvil para que siempre estés un paso adelante.</p>
+    </section>
+
+    <section id="products">
+        <h2>Nuestros Productos</h2>
+        <div class="products">
+            <div class="product">
+                <img src="Primera imagen.jpg" alt="Teléfono Nexor X100">
+                <h3>Teléfono Nexor X100</h3>
+                <p>Un teléfono innovador con una cámara de 108 MP, batería de larga duración y diseño ultradelgado.</p>
+            </div>
+            <div class="product">
+                <img src="segunda imagen.jpg" alt="Teléfono Nexor X200">
+                <h3>Teléfono Nexor X200</h3>
+                <p>Alta velocidad, pantalla de 6.5 pulgadas, y procesador de última generación para una experiencia fluida.</p>
+            </div>
+            <div class="product">
+                <img src="tercera imagen.jpg" alt="Teléfono Nexor X300">
+                <h3>Teléfono Nexor X300</h3>
+                <p>El futuro de la telefonía. Con tecnología 5G, este dispositivo ofrece un rendimiento inigualable.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        <form action="#" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nexor. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
